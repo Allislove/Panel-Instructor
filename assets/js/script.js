@@ -1,7 +1,8 @@
-import Instructor from './clases/Instructor.js'
-import Student from './clases/Student.js'
-import UI from './clases/UI.js'
-import Stds from './clases/Stds.js'
+import Instructor from './clases/Instructor.js';
+import Student from './clases/Student.js';
+import UI from './clases/UI.js';
+import Stds from './clases/Stds.js';
+//import deleteUser from './clases/deleteUser.js';
 
 // Listeners
 const formInstructor = document.getElementById('form-new-instructor');
@@ -36,3 +37,4 @@ addingStudent.addEventListener('submit', function(event){
     const stds = new Stds();     // creamos la instancia del objeto
     stds.addStudent(student, 'students-notes'); // llamamos la instancia y le pasamos la const que contiene los inputs
 })
+

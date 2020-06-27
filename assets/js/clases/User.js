@@ -16,14 +16,14 @@ export default class User {
     }
 
     hereFrom() {
-        return `${this.desde} `
+        return `${this.desde}`
     }
 
     studentFouls() {
-        return `${this.fouls} `
+        return `${this.fouls}`
     }
 
     studentNotes() {
-        return `${this.note} `
+        return `${this.note}`
     }
 }

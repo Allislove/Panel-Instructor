@@ -1,0 +1,18 @@
+.bg-gradient {
+    background: linear-gradient(210deg, #f36f65, #f10354);
+    color: white;
+}
+.custom-rounded {
+    border-radius: 12px;
+}
+
+.profile-picture {
+    width: 80px;
+    height: 80px;
+    background-color: wheat;
+    margin: auto;
+    background-image: url("https://images.pexels.com/photos/614810/pexels-photo-614810.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500");
+    background-size: cover; /* Resize the background image to cover the entire container */
+    background-position: center; /* Center the image */
+    background-repeat: no-repeat; /* Do not repeat the image */
+}

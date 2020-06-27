@@ -1,9 +1,10 @@
 import User from './User.js'
 
 export default class Student extends User {
-    constructor(name, lastname, note, fouls) {
+    constructor(name, lastname, fouls, note) {
         super(name, lastname)
-        this.note = note;
         this.fouls = fouls;
+        this.note = note;
+        
     }
 }

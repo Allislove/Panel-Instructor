@@ -4,12 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> 
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"> 
     <link rel="stylesheet" href="./assets/css/styles.css">
 </head>
 <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-        <a class="navbar-brand" href="#">Navbar</a>
+    <nav class="navbar navbar-expand-lg ">
+        <a class="navbar-brand" href="index.html">LogoAqui</a>
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
           <span class="navbar-toggler-icon"></span>
         </button>
@@ -44,7 +44,7 @@
     </nav>
 
 
-    <h1> Panel de Instructor/</h1>
+    <h1 class="text-center"> Panel de Instructor/</h1>
 
     <div class="container mt-5">
         <div class="row">
@@ -92,20 +92,18 @@
                       <h6>Agregar estudiante</h6>
                       <form id="add-negative-students">
                           <div class="form-group">
-                              <input type="text" class="form-control" placeholder="Nombre" id="student-name">
+                              <input type="text" class="form-control" placeholder="Nombre" id="student-name" required>
                           </div>
                           <div class="form-group">
-                              <input type="text" class="form-control" placeholder="Apellido" id="student-lastname">
+                              <input type="text" class="form-control" placeholder="Apellido" id="student-lastname" required>
                           </div>
                           <div class="form-group">
-                            <input type="number" class="form-control" placeholder="Faltas" id="student-fouls">
+                            <input type="number" class="form-control" placeholder="Faltas" id="student-fouls" required>
                         </div>
                         <div class="form-group">
-                          <input type="number" class="form-control" placeholder="Calificación" id="student-note">
+                          <input type="number" class="form-control" placeholder="Calificación" id="student-note" required>
                       </div>
                           <button type="submit" class="btn btn-primary">Añadir </button>
-                          <input type="reset" value="Restaurar" class="btn btn-primary">
-
                       </form>
                   </div>
                 </div>
@@ -119,7 +117,7 @@
                         <div class="profile-picture rounded-circle"></div>
                         <h5 class="mt-2">+username</h5>
                         <hr>
-                        <a href="#" class="text-decoration-none text-secondary">Ver mi generación actual</a>
+                        <a href="actualgeneration.html" id="actualgeneration" class="text-decoration-none text-secondary">Ver mi generación actual</a>
                         <hr>
                         <a href="#" class="text-decoration-none text-secondary">Ver las metas semanales de aprendizaje</a>
                     </div>
@@ -154,13 +152,13 @@
                         <h6>Agregar instructor</h6>
                         <form id="form-new-instructor">
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Nombre" id="name-instructor">
+                                <input type="text" class="form-control" placeholder="Nombre" id="name-instructor" required>
                             </div>
                             <div class="form-group">
-                                <input type="text" class="form-control" placeholder="Apellido" id="lastname-instructor">
+                                <input type="text" class="form-control" placeholder="Apellido" id="lastname-instructor" required>
                             </div>
                             <div class="form-group">
-                              <input type="datetime" class="form-control" placeholder="Aqui desde?" id="desde-instructor">
+                              <input type="datetime" class="form-control" placeholder="Aqui desde?" id="desde-instructor" required>
                           </div>
                             <button type="submit" class="btn btn-primary">Añadir</button>
                         </form>

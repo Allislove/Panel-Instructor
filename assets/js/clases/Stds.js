@@ -12,5 +12,7 @@ export default class Stds {
     }
 }
 
+
+// Clase para llevar la lista total de estudiantes negativos
 // En esta clase, llamo el objeto student, que esta creado en el nodo principal, para mostrarlas en una tabla en el documento html
 // entonces al llamar a el objeto student. le digo que me muestre las funciones que he determinado para que se cpuedan ingresar datos, o cumpla su trabajo

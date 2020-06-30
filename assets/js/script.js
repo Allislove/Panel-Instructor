@@ -16,9 +16,9 @@ formInstructor.addEventListener('submit', function(event) {
     
     const ui = new UI();
     ui.addInstructor(instructor, 'instructors');
-
+    document.getElementById("form-new-instructor").reset();
     //const student =  new Student(name, lastname, 9, 8);
-    console.log(instructor);
+   // console.log(instructor);
     //console.log(student);
 })
 
@@ -36,5 +36,8 @@ addingStudent.addEventListener('submit', function(event){
 
     const stds = new Stds();     // creamos la instancia del objeto
     stds.addStudent(student, 'students-notes'); // llamamos la instancia y le pasamos la const que contiene los inputs
+    document.getElementById("add-negative-students").reset(); // Reseteamos los inputs cuando agreguemos datos
 })
 
+
+ 
